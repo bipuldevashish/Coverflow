@@ -46,7 +46,7 @@ public class MovieAdapter extends BaseAdapter {
             ImageView image = rowView.findViewById(R.id.image);
 
             //for setting Data
-            Picasso.with(mContext).load(movieList.get(i).getImageURL()).into(image);
+            Picasso.get().load(movieList.get(i).getImageURL()).into(image);
             name.setText(movieList.get(i).getName());
         }
         return rowView;
