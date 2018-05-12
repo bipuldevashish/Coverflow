@@ -17,6 +17,11 @@
            
            
            xffs
+           
+           
+           
+ <img src = "https://github.com/bipuldevashish/Coverflow/blob/master/coverflow.png">
+ <img src = "https://github.com/bipuldevashish/Coverflow/blob/master/coverflow2.png">
          
         
                       
