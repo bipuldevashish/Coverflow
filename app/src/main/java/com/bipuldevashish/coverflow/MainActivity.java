@@ -48,10 +48,10 @@ public class MainActivity extends AppCompatActivity {
             mTitle.setOutAnimation(out);
 
             movieAdapter =new MovieAdapter(movieList,this);
-            coverFlow =(FeatureCoverFlow)findViewById(R.id.coverFlow);
+            coverFlow = (FeatureCoverFlow)findViewById(R.id.coverFlow);
             coverFlow.setAdapter(movieAdapter);
 
-        coverFlow.setOnScrollPositionListener(new FeatureCoverFlow.OnScrollPositionListener(){
+            coverFlow.setOnScrollPositionListener(new FeatureCoverFlow.OnScrollPositionListener(){
                 @Override
                     public void onScrolledToPosition(int position){
 
@@ -71,5 +71,7 @@ public class MainActivity extends AppCompatActivity {
             movieList.add(new Movie("Batman vs Superman","https://trashfilmguru.files.wordpress.com/2016/03/batman-vs-superman-poster.jpg"));
             movieList.add(new Movie("Fast and Furious","https://cdn.movieweb.com/img.site/PHx1qatQr9M5AA_1_l.jpg"));
             movieList.add(new Movie("Wonder Women","http://www.joblo.com/posters/images/full/wonder-woman-new-poster.jpg"));
+            movieList.add(new Movie("Bipul Devahshish","https://scontent.fbom6-1.fna.fbcdn.net/v/t1.0-9/10373635_656554114434375_4846785825696931616_n.jpg?_nc_cat=0&oh=522f978582eba1a3fa19a30e1854993e&oe=5B63083B"));
+
         }
     }
